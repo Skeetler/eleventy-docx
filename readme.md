@@ -6,6 +6,7 @@
 1. run setup for your OS
 
 if you use linux you are not disabled and can figure it out
+
 basically is just that you have to install libreoffice in some way because it's the only way to decently preserve docx formatting (curse of Ra on Microsoft).
 
  # HOW DOES IT WORK
