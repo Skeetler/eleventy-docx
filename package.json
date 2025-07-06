@@ -15,7 +15,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "glob": "^11.0.3",
-    "mammoth": "^1.9.1",
     "puppeteer": "^24.11.2"
   }
 }
