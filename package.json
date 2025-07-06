@@ -1,0 +1,21 @@
+{
+  "name": "pdf-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node clean.js",
+    "convert": "node convert-docx.js",
+    "build": "npm run convert && eleventy",
+    "pdf": "npm run build && node generate-pdfs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "glob": "^11.0.3",
+    "mammoth": "^1.9.1",
+    "puppeteer": "^24.11.2"
+  }
+}
